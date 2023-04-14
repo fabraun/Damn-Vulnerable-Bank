@@ -1,0 +1,417 @@
+{
+  "reportSchema" : "1.1",
+  "scanInfo" : {
+    "engineVersion" : "8.1.2",
+    "dataSource" : [ {
+      "name" : "NVD CVE Checked",
+      "timestamp" : "2023-04-14T10:12:34"
+    }, {
+      "name" : "NVD CVE Modified",
+      "timestamp" : "2023-04-14T07:00:01"
+    }, {
+      "name" : "VersionCheckOn",
+      "timestamp" : "2023-04-14T10:12:40"
+    }, {
+      "name" : "kev.checked",
+      "timestamp" : "1681459747"
+    } ],
+    "analysisExceptions" : [ {
+      "exception" : {
+        "message" : "org.owasp.dependencycheck.analyzer.exception.SearchException: Could not perform Node Audit analysis. Invalid payload submitted to Node Audit API.",
+        "stackTrace" : [ "org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch.submitPackage(NodeAuditSearch.java:209)", "org.owasp.dependencycheck.data.nodeaudit.NodeAuditSearch.submitPackage(NodeAuditSearch.java:133)", "org.owasp.dependencycheck.analyzer.NodeAuditAnalyzer.analyzePackage(NodeAuditAnalyzer.java:189)", "org.owasp.dependencycheck.analyzer.NodeAuditAnalyzer.analyzeDependency(NodeAuditAnalyzer.java:146)", "org.owasp.dependencycheck.analyzer.AbstractAnalyzer.analyze(AbstractAnalyzer.java:131)", "org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:88)", "org.owasp.dependencycheck.AnalysisTask.call(AnalysisTask.java:37)", "java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)", "java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)", "java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)", "java.base/java.lang.Thread.run(Thread.java:1589)" ]
+      }
+    } ]
+  },
+  "projectInfo" : {
+    "name" : "",
+    "reportDate" : "2023-04-14T10:25:18.096058627Z",
+    "credits" : {
+      "NVD" : "This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov",
+      "CISA" : "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "NPM" : "This report may contain data retrieved from the NPM Public Advisories: https://www.npmjs.com/advisories",
+      "RETIREJS" : "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+      "OSSINDEX" : "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+    }
+  },
+  "dependencies" : [ {
+    "isVirtual" : false,
+    "fileName" : "Response.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/Response.js",
+    "md5" : "6055bb4e3679588f4d38491afccdd03b",
+    "sha1" : "631686a1b692abc9d5c641eca23c7a3c2b2a4df8",
+    "sha256" : "6f77746ffba241ae3e0ce9aaa8f802e3609715a7e8f73575ff0e44e74efc4077",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "add.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Beneficiary/add.js",
+    "md5" : "30fc547eeb4093a37af6dc0e4381154f",
+    "sha1" : "f3558342a43ff1b08c3ff47b09ebaedba62374c8",
+    "sha256" : "a8e142d5f814ab66e7ae9aa44ea6b0a5746b9af8919ed5ca68fdb353e5b815a7",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "app.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/app.js",
+    "md5" : "0df287491813afa07a083f52b74c375a",
+    "sha1" : "916e60c783d3462f9d5fdc844593b8d77a2077d0",
+    "sha256" : "827736fa72f9ae97feeceb4d6ff9c4f1aa20ab36dcf63f2c4f7af348a8a0df62",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "approve.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Beneficiary/approve.js",
+    "md5" : "93d6641033accfbb8718bba06567d130",
+    "sha1" : "eeddc940a1eae685cc2cbdf7c768baf715380879",
+    "sha256" : "65057b08759f8d5999e7364703909531b8a15db3300964cebd69f5be740b8b9e",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "beneficiary.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/models/beneficiary.js",
+    "md5" : "10e1ba8ac52c62db7fc24fbe5dac36b1",
+    "sha1" : "464956a578789c73fac3fcbfde7a027d5e3c85df",
+    "sha256" : "801312ed4e6f642816f1f859c0f3c6335fcc47898b6e53c2fb0733c9388d137e",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "changePassword.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/User/changePassword.js",
+    "md5" : "de6082723b7750e62a150c2150f2d51b",
+    "sha1" : "3257f67b1c09e14e6ceaeec9381e6dcd4603b16b",
+    "sha256" : "a1f713362c11b54b6200bdbac8cb6f5b3840d4dc3d27776021200ff70575688f",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "check.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Health/check.js",
+    "md5" : "98697e2ce65a51d8a5d9e59d1a470b45",
+    "sha1" : "7bacb634ba3d9155a7951bc608e533247b1a5251",
+    "sha256" : "c0b9effb59e1400a539c7f34b888daa356baab5085d7fad4a7a30225e630802a",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "crypt.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/middlewares/crypt.js",
+    "md5" : "eee72cf5af476a2baeb93846c7813d1f",
+    "sha1" : "bf2a34f28bf46f4ebf3ccaf534b7fb457d356875",
+    "sha256" : "6f586055751228d6bc1807199e7eb7450aa121e3b87c1048acececc01e5473fd",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "delete.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Beneficiary/delete.js",
+    "md5" : "d877d80a2f2d9a5e511c925a5c8ba7a6",
+    "sha1" : "9f0043a9fbac030d0ddb3ddf6327669b3f7fef18",
+    "sha256" : "96bf90d0ac8824a707d56251fefd4f2b5c0f365815ef21be8a54cad5077ec0e0",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "download.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Transactions/download.js",
+    "md5" : "9f000e8fd77a1086ad5b0ffb6d0123fb",
+    "sha1" : "dbe8b206d96224d557978590121d2a98cbac30da",
+    "sha256" : "1da5e5d89836d5b9e1675f2524d944b8fbf07d2148e5fda3921cb22cefb72a0e",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "dvba.apk",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/dvba.apk",
+    "md5" : "5b40b49cd80dbe20ba611d32045b57c6",
+    "sha1" : "23dcd688fe4dd830cf92309755a5bbd603df8789",
+    "sha256" : "76c308fac6a655a3534771777780e004feb1d91be032857768c891b2baf40ba6",
+    "relatedDependencies" : [ {
+      "isVirtual" : false,
+      "fileName" : "dvba.apk",
+      "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/DamnVulnerableBank/app/release/dvba.apk",
+      "sha256" : "76c308fac6a655a3534771777780e004feb1d91be032857768c891b2baf40ba6",
+      "sha1" : "23dcd688fe4dd830cf92309755a5bbd603df8789",
+      "md5" : "5b40b49cd80dbe20ba611d32045b57c6"
+    } ],
+    "evidenceCollected" : {
+      "vendorEvidence" : [ {
+        "type" : "vendor",
+        "confidence" : "HIGH",
+        "source" : "file",
+        "name" : "name",
+        "value" : "dvba"
+      } ],
+      "productEvidence" : [ {
+        "type" : "product",
+        "confidence" : "HIGH",
+        "source" : "file",
+        "name" : "name",
+        "value" : "dvba"
+      } ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "index.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Balance/index.js",
+    "md5" : "96109e851df26d053550f1df314116ba",
+    "sha1" : "92f4328863f6c1de2217b463d3db3705453ed679",
+    "sha256" : "a3385248b8e70fdd98693f74ff9696e9fab9d42a43b0137267b51a9e47c41c20",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "index.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Beneficiary/index.js",
+    "md5" : "b961ef343b7319474f6474c7aa7fc029",
+    "sha1" : "de3a9686a8cb146f887b166a8b6779eb13e9c777",
+    "sha256" : "95fee5fd626b8e4ba457068df6744edb2c6e365b6d2594e235caee2535ec854a",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "index.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Health/index.js",
+    "md5" : "ea85abc8a2c0f08e95558103654661e7",
+    "sha1" : "a4ad28837da5b0da4ff9596bb0638b184ea19dfc",
+    "sha256" : "41a19173b83cead7340c4e422495b8dd2a87e88d47645f3541f5bf5bc6b1e35c",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "index.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Transactions/index.js",
+    "md5" : "4be4cc6dabdebe866bb1f6f4ac28015f",
+    "sha1" : "4a98d75488455a098ed6b3274cb041526d4df4b1",
+    "sha256" : "e5251e28e7a7f873f65393a899742e441b18b63710b5b958d2f20c1943bfbb50",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "index.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/User/index.js",
+    "md5" : "d5cf1ce7c274ff4652b2d79681370b71",
+    "sha1" : "8958a29969e801eab623cfc0a35e15131dd16197",
+    "sha256" : "ca641e3632f291da0b6241c6ebad1ca0215ec240c57b553c23314d0e8ecf887f",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "index.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/models/index.js",
+    "md5" : "b605c6467cfc774829d391a02fa14aa8",
+    "sha1" : "267cae44db4192726641cefa506d286f9cb680ef",
+    "sha256" : "62e839b9e200ae2b4858415e5dba7669521e81158723d37b888099152c16eace",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "index.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/routes/index.js",
+    "md5" : "2fbadbc542e167dd4ada2d2072bb6f83",
+    "sha1" : "9bb66ac09f72c41a9c03bc572ae923451a2c7a2c",
+    "sha256" : "465e9888e40ab79d7d90c6c946de724927941cf52b1e464558d7c4705bf41f8b",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "login.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/User/login.js",
+    "md5" : "290d5000efa6bad85b6c169fcba5ffe9",
+    "sha1" : "6f072e7586142199c23f875290306449f491b96f",
+    "sha256" : "dac2f24dd8981d9ad176df5f2e4e90157a7c22e0dffdfa96582cfa259c836c5f",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "pending.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Beneficiary/pending.js",
+    "md5" : "bbfe512cf36f7a6bc6a50366061d3946",
+    "sha1" : "2ace3021c8027e271b8084736d2016c3dce5455e",
+    "sha256" : "b71036b698cad619a4505aa85980ab1c7fb761f3bea6c24673efa97021817096",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "profile.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/User/profile.js",
+    "md5" : "17f6b42ffa36e15f8e0dbe05fbeb6896",
+    "sha1" : "6d385f6d226f5a3c26d957802c707baefe1766da",
+    "sha256" : "63f9c5b040147d33c7ff5657950f5eb830b5161bac2cf8492c9ecd7912e2cb43",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "register.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/User/register.js",
+    "md5" : "2417987365a45892e648f4f307f364c6",
+    "sha1" : "e22767c2b8bde40f2f4f239405d96037a508d39f",
+    "sha256" : "272eb299dcc4d254ce5a5dd68c7532a0befb838a1efe7e66e149ec43f1baf0d1",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "statusCodes.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/statusCodes.js",
+    "md5" : "e6d0d606f9f950cfc8ce78b1fac5566b",
+    "sha1" : "39d571a82fe8b8ca63d1e2aac2df03938e525d6e",
+    "sha256" : "78d72f0ad6d1179114bec9cb6d6871b601ba293ed60fc26448ee725693bf2097",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "transactions.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/models/transactions.js",
+    "md5" : "a5110074e2f7878e075c782df651a107",
+    "sha1" : "ae9a1a20d98b44e8ae271e1ee0427071e4d954d5",
+    "sha256" : "4ff968a3ff4a9f48cb69bc5d9676fc358d7ff6eb27886dc37c61b298e610deb6",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "transfer.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Balance/transfer.js",
+    "md5" : "e3e0de6aae143c6603a7be309599c4c4",
+    "sha1" : "d8c12a367058e12c6dbed32cc40d9aaaca40f46a",
+    "sha256" : "f8c43f6662e1cc653a7699e675e0218440f20190c1953f7b28b9d3b0b5ca2aef",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "users.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/models/users.js",
+    "md5" : "3ce8202f10b2bb5b78c5eef5dbe0a4a5",
+    "sha1" : "2eb5524c03ca0ac853b0327a5d937ac1efc32f22",
+    "sha256" : "43768a74faf3eac2872c1daf0331a4603a042df7f1693f70b68ed49d7314eebe",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "validateToken.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/middlewares/validateToken.js",
+    "md5" : "9de3b770b94db7196012216d6bdfa15e",
+    "sha1" : "ab3286ad6d34ab27f812a6294c3d1af05923293a",
+    "sha256" : "41d76dedc8317c2a3f29e1c1e78068152ff020e0bd6a23321b1ef4f0b996f031",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "view.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Balance/view.js",
+    "md5" : "2a0254704ec5244c3b7e0db360851e3f",
+    "sha1" : "51ba5034bae4707b79277e6bfcad46e8c4b2b2fa",
+    "sha256" : "7a71981a4526a6cf0876b5fbab22b020d9f41a0c2d60a1914f9003db56751acd",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "view.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Beneficiary/view.js",
+    "md5" : "5a49d5a5752152822b4bca9410f8aca6",
+    "sha1" : "c67c38de8a2651cca33c1d3275bf4335af93cca7",
+    "sha256" : "8df8ebd15f58743615c1bf7d7ea7d369f95adb14f028e0c7e6b0c6ad5a448b0d",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  }, {
+    "isVirtual" : false,
+    "fileName" : "view.js",
+    "filePath" : "/mnt/c/Users/fbraun/Documents/GitHub/Damn-Vulnerable-Bank/BackendServer/lib/api/Transactions/view.js",
+    "md5" : "0acf3dbf142c372a846edc3e67506730",
+    "sha1" : "c39f071662b1733b2fc372645554d1b60dfddfe8",
+    "sha256" : "5eac0378d3e7420487fb1618fa2ec3049eae0bdbaa6728c205014829fddd9eaa",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ ],
+      "productEvidence" : [ ],
+      "versionEvidence" : [ ]
+    }
+  } ]
+}
